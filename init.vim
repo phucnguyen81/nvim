@@ -42,6 +42,7 @@ silent! colorscheme gruvbox
 call plug#end()
 " }}
 " Options {{
+set hidden
 set number relativenumber
 set nohlsearch
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
@@ -56,7 +57,7 @@ else
     set clipboard=unnamed
 endif
 " }}
-" Commands {{
+" ommands {{
 command -nargs=1 SetTab setlocal tabstop=<args> shiftwidth=<args> 
             \ softtabstop=<args> expandtab
 " }}
