@@ -57,7 +57,7 @@ else
     set clipboard=unnamed
 endif
 " }}
-" ommands {{
+" Commands {{
 command -nargs=1 SetTab setlocal tabstop=<args> shiftwidth=<args> 
             \ softtabstop=<args> expandtab
 " }}
